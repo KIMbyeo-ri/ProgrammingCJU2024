@@ -1,0 +1,10 @@
+﻿  main.cpp
+C:\Users\kanga\OneDrive\문서\GitHub\연습1\연습1\main.cpp(7,17): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kanga\OneDrive\문서\GitHub\연습1\연습1\main.cpp(15,272): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+      C:\Users\kanga\OneDrive\문서\GitHub\연습1\연습1\main.cpp(15,272):
+      자리 표시자 및 해당 매개 변수에는 variadic 인수가 4개 필요하지만 5개가 제공되었습니다.
+  
+C:\Users\kanga\OneDrive\문서\GitHub\연습1\연습1\main.cpp(6,9): warning C4101: '삼각형넓이' :참조되지 않은 지역 변수입니다.
+C:\Users\kanga\OneDrive\문서\GitHub\연습1\연습1\main.cpp(6,43): warning C4101: '구의표면적' :참조되지 않은 지역 변수입니다.
+C:\Users\kanga\OneDrive\문서\GitHub\연습1\연습1\main.cpp(6,26): warning C4101: '사각형넓이' :참조되지 않은 지역 변수입니다.
+  연습1.vcxproj -> C:\Users\kanga\OneDrive\문서\GitHub\연습1\x64\Debug\연습1.exe
