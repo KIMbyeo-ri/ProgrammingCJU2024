@@ -1,18 +1,25 @@
 #include <stdio.h>
 
-int main(void)
-{
-	double 삼각형밑변, 삼각형높이, 사각형가로, 사각형세로, 원반지름 = 0;
-	double 삼각형넓이, 사각형넓이, 구의표면적, 구의체적 = 0;
-	const int pi = 3.141592;
+int main() {
+    double angle;          // 입력받은 각도
+    double convert_angle;  // 변환된 각도
 
+    // 사용자로부터 입력 받기
+    printf("각도를 입력하세요 (0 ~ 360도 범위 이상도 가능): ");
+    scanf_s("%lf", &angle);
 
+    // 각도를 360도로 나눈 나머지 계산
+    convert_angle = angle - 360.0 * (angle / 360.0);
+    convert_angle = convert_angle + 360.0 * (convert_angle / 360.0 - (convert_angle / 360.0));
 
+    // 음수 처리 (convert_angle + 360을 계산해 mod 연산 효과를 얻음)
+    convert_angle = convert_angle + 360.0 * (convert_angle / -360.0);
 
-	printf("삼각형의 밑변, 높이, 사각형 가로, 세로, 원반지름을 입력하시오\n");
-	scanf_s("%lf%lf%lf%lf%lf", &삼각형밑변, &삼각형높이, &사각형가로, &사각형세로, &원반지름);
+    // 각도를 -180 ~ +180 범위로 변환 (convert_angle - 360을 계산해 조정)
+    convert_angle = convert_angle - 360.0 * (convert_angle / 180.0);
 
-	printf("삼각형넓이 %.2lf, 사각형넓이 %.2lf, 구의표면적 %.2lf, 구의체적 %.2lf\n", 삼각형밑변 * 삼각형높이 / 2, 사각형가로 * 사각형세로, 4 * pi * 원반지름 * 원반지름, 4 / 3 * pi * 원반지름 * 원반지름 * 원반지름);
+    // 변환된 각도 출력
+    printf("변환된 각도는: %.2f도 입니다.\n", convert_angle);
 
-	return 0;
+    return 0;
 }
