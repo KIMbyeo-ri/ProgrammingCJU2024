@@ -5,7 +5,7 @@ int main(void)
     float score;
     char grade;
 
-    printf("정적 입력(0.0~100.0): ");
+    printf("성적 입력(0.0~100.0): ");
     scanf_s("%f", &score);
 
     if (score >= 90.0 and score <= 100.0) {
