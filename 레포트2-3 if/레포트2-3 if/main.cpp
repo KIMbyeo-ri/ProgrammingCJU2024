@@ -17,7 +17,7 @@ int main(void)
     else if (score >= 70.0 and score < 80.0) {
         grade = 'c';
     }
-    else if (score >= 70.0 and score < 50.0) {
+    else if (score >= 50.0 and score < 70.0) {
         grade = 'D';
     }
     else if (score >= 00.0 and score < 50.0) {
