@@ -1,47 +1,23 @@
 #include <stdio.h>
 
-int main(void)
-{
-    float score;
-    char grade;
+int main(void) {
+    int num;
 
-    printf("정적 입력(0.0~100.0): ");
-    scanf_s("%f", &score);
+    printf("정수를 입력하세요:");
+    scanf_s("%d", &num);
 
-    switch ((int)score / 10) {
-    case 10:
-    case 9:
-        grade = 'A';
-        break;
-
-    case 8:
-        grade = 'B';
-        break;
-
-    case 7:
-        grade = 'C';
-        break;
-
-    case 6:
-        grade = 'C';
-        break;
-
-    case 5:
-        grade = 'D';
-        break;
-
-    case 4:
-    case 3:
-    case 2:
-    case 1:
+    switch (num % 2) {
+   
     case 0:
-        grade = 'F';
+        printf("%d는 짝수입니다.\n", num);
+       
         break;
-    default:
-        printf("잘못된 점수입니다.\n");
-        return 1;
+   
+    case 1:
+        printf("%d는 홀수입니다.\n", num);
+      
+        break;
     }
 
-    printf("학점: %c\n", grade);
     return 0;
 }
