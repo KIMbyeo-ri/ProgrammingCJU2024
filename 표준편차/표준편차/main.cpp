@@ -1,22 +1,25 @@
 #include <stdio.h>
-#include <math.h> // sqrt
+#include <math.h> //sqrt 함수사용
 
-// 함수 선언
-void generateRandomNumbers(int numbers[], int count, int seed);
-int calculateSum(int numbers[], int count);
-double calculateVariance(int numbers[], int count, double mean);
-double calculateStandardDeviation(double variance);
 
-int main(void) {
-    int numbers[10];
-    int sum;
-    double mean, variance, standardDeviation;
+void RandomNum(int numbers[], int count, int seed); //임의의 정수 생성하여 배열에 저장
+int calculate(int numbers[], int count); //배령의 총합 계산
+double calculateVariance(int numbers[], int count, double mean); //배열의 분산 계산
+double calculateStandardDeviation(double variance); //표준편차 계산
 
-    // 난수 생성
-    int seed;
+int main(void)
+{
+    int numbers[10]; //무작위로 생성된 정수를 저장할 배열
+    int sum;  // 숫자들의 총합
+    double mean; // 숫자들의 평균
+    double variance; // 숫자들의 분산
+    double standardDeviation;  // 숫자들의 표준편차
+    int seed; // 난수 생성의 시드 값
+
+
     printf("Enter a seed value (any integer): ");
     scanf_s("%d", &seed);
-    generateRandomNumbers(numbers, 10, seed);
+    RandomNum(numbers, 10, seed);
 
     // 생성된 숫자 출력
     printf("Generated numbers: ");
@@ -26,7 +29,7 @@ int main(void) {
     printf("\n");
 
     // 총합 계산
-    sum = calculateSum(numbers, 10);
+    sum = calculate(numbers, 10);
 
     // 평균 계산
     mean = (double)sum / 10;
@@ -47,7 +50,7 @@ int main(void) {
 }
 
 // 난수 생성 함수
-void generateRandomNumbers(int numbers[], int count, int seed) {
+void RandomNum(int numbers[], int count, int seed) {
     int min = 1, max = 100; // 난수 범위 설정
     for (int i = 0; i < count; i++) {
         seed = (seed * 1103515245 + 12345 + i) % 2147483647; // i를 추가해 변화 도입
@@ -56,7 +59,7 @@ void generateRandomNumbers(int numbers[], int count, int seed) {
 }
 
 // 총합 계산 함수
-int calculateSum(int numbers[], int count) {
+int calculate(int numbers[], int count) {
     int sum = 0;
     for (int i = 0; i < count; i++) {
         sum += numbers[i];

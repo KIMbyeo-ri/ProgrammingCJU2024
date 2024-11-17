@@ -13,26 +13,26 @@ void playGame() {
     int guess; // 사용자 입력
     int attempts = 10; // 시도 횟수 제한
 
-    printf("컴퓨터가 1부터 100 사이의 정수를 생성했습니다.\n");
-    printf("10번의 기회 안에 숫자를 맞추세요!\n");
+    printf("컴퓨터가 1부터 100 사이의 정수 생성.\n");
+    printf("110회 안에 맞추시오.\n");
 
     for (int i = 1; i <= attempts; i++) {
-        printf("시도 %d/%d: 숫자를 입력하세요: ", i, attempts);
+        printf("시도 %d/%d: 숫자 입력: ", i, attempts);
         scanf_s("%d", &guess);
 
         if (guess < target) {
-            printf("업! 더 큰 숫자를 시도하세요.\n");
+            printf("업.\n");
         }
         else if (guess > target) {
-            printf("다운! 더 작은 숫자를 시도하세요.\n");
+            printf("다운.\n");
         }
         else {
-            printf("축하합니다! 숫자를 맞췄습니다!\n");
+            printf("정답!\n");
             return; // 게임 종료
         }
     }
 
-    printf("기회를 모두 소진했습니다. 정답은 %d였습니다.\n", target);
+    printf("기회 모두 소진. 정답은 %d.\n", target);
 }
 
 int main(void) {
