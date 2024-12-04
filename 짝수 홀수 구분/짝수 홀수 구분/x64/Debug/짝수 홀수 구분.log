@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\kanga\OneDrive\문서\GitHub\ProgrammingCJU2024\짝수 홀수 구분\짝수 홀수 구분\main.cpp(46,16): warning C4311: '형식 캐스트': 'int *'에서 'int'(으)로 포인터가 잘립니다.
+C:\Users\kanga\OneDrive\문서\GitHub\ProgrammingCJU2024\짝수 홀수 구분\짝수 홀수 구분\main.cpp(46,16): warning C4302: '형식 캐스트': 'int *'에서 'int'(으)로 잘립니다.
+C:\Users\kanga\OneDrive\문서\GitHub\ProgrammingCJU2024\짝수 홀수 구분\짝수 홀수 구분\main.cpp(46,29): warning C4311: '형식 캐스트': 'int (*)[10]'에서 'int'(으)로 포인터가 잘립니다.
+C:\Users\kanga\OneDrive\문서\GitHub\ProgrammingCJU2024\짝수 홀수 구분\짝수 홀수 구분\main.cpp(46,29): warning C4302: '형식 캐스트': 'int (*)[10]'에서 'int'(으)로 잘립니다.
+C:\Users\kanga\OneDrive\문서\GitHub\ProgrammingCJU2024\짝수 홀수 구분\짝수 홀수 구분\main.cpp(46,46): warning C4311: '형식 캐스트': 'int (*)[10]'에서 'int'(으)로 포인터가 잘립니다.
+C:\Users\kanga\OneDrive\문서\GitHub\ProgrammingCJU2024\짝수 홀수 구분\짝수 홀수 구분\main.cpp(46,46): warning C4302: '형식 캐스트': 'int (*)[10]'에서 'int'(으)로 잘립니다.
+  짝수 홀수 구분.vcxproj -> C:\Users\kanga\OneDrive\문서\GitHub\ProgrammingCJU2024\짝수 홀수 구분\x64\Debug\짝수 홀수 구분.exe
