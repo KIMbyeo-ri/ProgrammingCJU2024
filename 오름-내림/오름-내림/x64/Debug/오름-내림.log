@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\kanga\OneDrive\문서\GitHub\ProgrammingCJU2024\오름-내림\오름-내림\main.cpp(40,16): warning C4311: '형식 캐스트': 'double (*)[10]'에서 'int'(으)로 포인터가 잘립니다.
+C:\Users\kanga\OneDrive\문서\GitHub\ProgrammingCJU2024\오름-내림\오름-내림\main.cpp(40,16): warning C4302: '형식 캐스트': 'double (*)[10]'에서 'int'(으)로 잘립니다.
+  오름-내림.vcxproj -> C:\Users\kanga\OneDrive\문서\GitHub\ProgrammingCJU2024\오름-내림\x64\Debug\오름-내림.exe

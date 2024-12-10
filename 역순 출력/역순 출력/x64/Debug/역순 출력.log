@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\kanga\OneDrive\문서\GitHub\ProgrammingCJU2024\역순 출력\역순 출력\main.cpp(37,16): warning C4311: '형식 캐스트': 'double (*)[10]'에서 'int'(으)로 포인터가 잘립니다.
+C:\Users\kanga\OneDrive\문서\GitHub\ProgrammingCJU2024\역순 출력\역순 출력\main.cpp(37,16): warning C4302: '형식 캐스트': 'double (*)[10]'에서 'int'(으)로 잘립니다.
+  역순 출력.vcxproj -> C:\Users\kanga\OneDrive\문서\GitHub\ProgrammingCJU2024\역순 출력\x64\Debug\역순 출력.exe

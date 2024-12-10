@@ -1,0 +1,14 @@
+﻿  main.cpp
+C:\Users\kanga\OneDrive\문서\GitHub\ProgrammingCJU2024\포인터 배열 연습\포인터 배열 연습\main.cpp(6,29): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\kanga\OneDrive\문서\GitHub\ProgrammingCJU2024\포인터 배열 연습\포인터 배열 연습\main.cpp(8,3): error C2664: 'int scanf_s(const char *const ,...)': 인수 1을(를) 'int'에서 'const char *const '(으)로 변환할 수 없습니다.
+      C:\Users\kanga\OneDrive\문서\GitHub\ProgrammingCJU2024\포인터 배열 연습\포인터 배열 연습\main.cpp(8,11):
+      정수 계열 형식에서 포인터 형식으로 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdio.h(1313,41):
+      'scanf_s' 선언을 참조하십시오.
+      C:\Users\kanga\OneDrive\문서\GitHub\ProgrammingCJU2024\포인터 배열 연습\포인터 배열 연습\main.cpp(8,3):
+      인수 목록 '(int, double *)'을(를) 일치시키는 동안
+  
+C:\Users\kanga\OneDrive\문서\GitHub\ProgrammingCJU2024\포인터 배열 연습\포인터 배열 연습\main.cpp(14,1): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+C:\Users\kanga\OneDrive\문서\GitHub\ProgrammingCJU2024\포인터 배열 연습\포인터 배열 연습\main.cpp(25,29): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\kanga\OneDrive\문서\GitHub\ProgrammingCJU2024\포인터 배열 연습\포인터 배열 연습\main.cpp(27,3): error C3861: 'ifi': 식별자를 찾을 수 없습니다.
+C:\Users\kanga\OneDrive\문서\GitHub\ProgrammingCJU2024\포인터 배열 연습\포인터 배열 연습\main.cpp(28,4): error C2146: 구문 오류: ';'이(가) 'dRes' 식별자 앞에 없습니다.
